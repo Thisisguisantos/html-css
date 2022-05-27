@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos with HTML5</title>
+</head>
+<body>
+    <h1>Inserting locally hosted video</h1>
+    <p>This video is hosted on my own server.</p>
+    <video width="250" poster="" controls>
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <p>Your browser does not support video playback.</p>
+    </video>
+
+    <h1>YouTube</h1>
+    <p>This video is hosted on Youtube.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y7o6t15_5XE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Vimeo</h1>
+    <p>This video is hosted on Vimeo.</p>
+    <iframe src="https://player.vimeo.com/video/685117723?h=757cfbb58a" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
